@@ -181,16 +181,18 @@ footer span {
 
     .seccion__productos--tarjeta-descripcion {
         display: block;
-    }
-
-    main section article.seccion__productos--tarjeta {
-        margin-bottom: 13px;
-    }
-
-    .seccion__productos--tarjeta {
-        box-shadow: -5px 5px 10px var(--gris-oscuro);
+        border-top: 3px solid var(--gris-claro);
     }
 }
+
+main section article.seccion__productos--tarjeta {
+    margin-bottom: 13px;
+}
+
+.seccion__productos--tarjeta {
+    box-shadow: -5px 5px 10px var(--gris-oscuro);
+}
+
 
 /* DESKTOP */
 
@@ -200,4 +202,8 @@ footer span {
         margin-bottom: 15px;
     }
 
+    .seccion__productos--tarjeta-descripcion {
+        display: block;
+        border-top: 5px solid var(--gris-claro);
+    }
 }
