@@ -1,13 +1,21 @@
 {
-  "name": "disenioadaptativo",
+  "name": "posicionamientoflexbox",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GermanLasserre/disenioadaptativo.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GermanLasserre/disenioadaptativo/issues"
+  },
+  "homepage": "https://github.com/GermanLasserre/disenioadaptativo#readme",
   "dependencies": {
     "express": "^4.18.2"
   },
